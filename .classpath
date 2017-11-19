@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="3rd-party-lib/commons-codec-1.10/commons-codec-1.10.jar" sourcepath="3rd-party-lib/commons-codec-1.10/commons-codec-1.10-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/iCalSampleEclipse/3rd-party-lib/commons-codec-1.10/commons-codec-1.10-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="3rd-party-lib/commons-collections4-4.1/commons-collections4-4.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/iCalSampleEclipse/3rd-party-lib/commons-collections4-4.1/commons-collections4-4.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="3rd-party-lib/commons-lang3-3.6/commons-lang3-3.6.jar" sourcepath="3rd-party-lib/commons-lang3-3.6/commons-lang3-3.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/iCalSampleEclipse/3rd-party-lib/commons-lang3-3.6/commons-lang3-3.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="3rd-party-lib/commons-logging-1.2/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/iCalSampleEclipse/3rd-party-lib/commons-logging-1.2/commons-logging-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="3rd-party-lib/ical4j-2.0.0/ical4j-2.0.0.jar" sourcepath="3rd-party-lib/ical4j-2.0.0/ical4j-2.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/iCalSampleEclipse/3rd-party-lib/ical4j-2.0.0/ical4j-2.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="3rd-party-lib/slf4j-1.7.25/slf4j-api-1.7.25.jar" sourcepath="3rd-party-lib/slf4j-1.7.25/slf4j-api-1.7.25-sources.jar"/>
+	<classpathentry kind="lib" path="3rd-party-lib/slf4j-1.7.25/slf4j-simple-1.7.25.jar" sourcepath="3rd-party-lib/slf4j-1.7.25/slf4j-simple-1.7.25-sources.jar"/>
+	<classpathentry kind="lib" path="3rd-party-lib/LGoodDatePicker-10.3.1/LGoodDatePicker-10.3.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
