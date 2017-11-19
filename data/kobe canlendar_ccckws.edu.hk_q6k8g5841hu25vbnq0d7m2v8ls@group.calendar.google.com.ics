@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:kobe canlendar
+X-WR-TIMEZONE:Asia/Hong_Kong
+X-WR-CALDESC:9
+BEGIN:VEVENT
+DTSTART:20171120T050000Z
+DTEND:20171120T060000Z
+DTSTAMP:20171125T084149Z
+UID:3j04nt9if9hmlmirgqei29ep1c@google.com
+CREATED:20171125T084041Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/visit-a-car?hceid=Y2Nja3dzLmVkdS5oa19xNms4Z
+ zU4NDFodTI1dmJucTBkN20ydjhsc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.3j04nt9if9h
+ mlmirgqei29ep1c&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T084042Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:visit a car show 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171122T020000Z
+DTEND:20171122T050000Z
+DTSTAMP:20171125T084149Z
+UID:363bcqpdviqvsgvqdsl8iflnj0@google.com
+CREATED:20171125T084106Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/fff-team?hceid=Y2Nja3dzLmVkdS5oa19xNms4ZzU4
+ NDFodTI1dmJucTBkN20ydjhsc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.363bcqpdviqvsg
+ vqdsl8iflnj0&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T084109Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:fff team participate 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171121T020000Z
+DTEND:20171121T033000Z
+DTSTAMP:20171125T084149Z
+UID:7iok7j81n0bv9jvde9l7gc5s48@google.com
+CREATED:20171125T084127Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/computer-show?hceid=Y2Nja3dzLmVkdS5oa19xNms
+ 4ZzU4NDFodTI1dmJucTBkN20ydjhsc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.7iok7j81n
+ 0bv9jvde9l7gc5s48&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T084131Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:computer show 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

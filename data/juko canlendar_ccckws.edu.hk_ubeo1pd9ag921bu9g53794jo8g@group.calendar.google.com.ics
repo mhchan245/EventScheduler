@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:juko canlendar
+X-WR-TIMEZONE:Asia/Hong_Kong
+X-WR-CALDESC:6
+BEGIN:VEVENT
+DTSTART:20171120T070000Z
+DTEND:20171120T083000Z
+DTSTAMP:20171125T084149Z
+UID:6n1e2kcl227mnfao705fia0uvk@google.com
+CREATED:20171125T083501Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/join-the-pair?hceid=Y2Nja3dzLmVkdS5oa191YmV
+ vMXBkOWFnOTIxYnU5ZzUzNzk0am84Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.6n1e2kcl2
+ 27mnfao705fia0uvk&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083503Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:join the pair party 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171123T080000Z
+DTEND:20171123T090000Z
+DTSTAMP:20171125T084149Z
+UID:4oeqls0rhrubvtk1hf6381mdlv@google.com
+CREATED:20171125T083521Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/join-the-group?hceid=Y2Nja3dzLmVkdS5oa191Ym
+ VvMXBkOWFnOTIxYnU5ZzUzNzk0am84Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.4oeqls0r
+ hrubvtk1hf6381mdlv&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083521Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:join the group party
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171122T093000Z
+DTEND:20171122T103000Z
+DTSTAMP:20171125T084149Z
+UID:1r505bt5g0k3s54te05vjp1ds7@google.com
+CREATED:20171125T083555Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/join-a-tutorial?hceid=Y2Nja3dzLmVkdS5oa191Y
+ mVvMXBkOWFnOTIxYnU5ZzUzNzk0am84Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.1r505bt
+ 5g0k3s54te05vjp1ds7&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083555Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:join a tutorial class of create a character of glass 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,5 +1,6 @@
 package eventscheduler;
 
+
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
@@ -17,6 +18,10 @@ import java.text.ParseException;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Iterator;
+
+import static java.time.temporal.ChronoUnit.DAYS;
+import static java.time.temporal.ChronoUnit.HOURS;
+
 import java.io.File;
 
 import java.time.LocalDate;
@@ -25,12 +30,16 @@ import java.time.format.DateTimeFormatter;
 
 public class Scheduler {
 
+	private String eventName;
+	private boolean allDay;
 	private LocalDate startDate;
 	private LocalDate endDate;
 	private LocalTime startTime;
 	private LocalTime endTime;
-	private String eventName;
-	private int eventLength;
+	private int lengthDays;
+	private int lengthHours;
+	private boolean repeat;
+	private int repeatTimes;
 	private boolean exHoliday;
 	private boolean limitTime;
 
@@ -38,32 +47,56 @@ public class Scheduler {
 	private Date periodStart;
 	private Date periodEnd;
 
-	public void setEventName(String eventName) {
+	public void seteventName(String eventName) {
 		this.eventName = eventName;
+	}		
+	public void setallDay(boolean allDay) {
+		this.allDay = allDay;
 	}
-
-	public void setEventLength(int eventLength) {
-		this.eventLength = eventLength;
+	public void setstartDate(LocalDate startDate) {
+		this.startDate = startDate;
 	}
-
-	public void setLimitTime(boolean limitTime) {
+	public void setendDate(LocalDate endDate) {
+		this.endDate = endDate;
+	}
+	public void setstartTime(LocalTime startTime) {
+		this.startTime = startTime;
+	}
+	public void setendTime(LocalTime endTime) {
+		this.endTime = endTime;
+	}
+	public void setlengthDays(int lengthDays) {
+		this.lengthDays = lengthDays;
+	}
+	public void setlengthHours(int lengthHours) {
+		this.lengthHours = lengthHours;
+	}
+	public void setrepeat(boolean repeat) {
+		this.repeat = repeat;
+	}
+	public void setrepeatTimes(int repeatTimes) {
+		this.repeatTimes = repeatTimes;
+	}
+	public void setexHoliday(boolean exHoliday) {
+		this.exHoliday = exHoliday;
+	}
+	public void setlimitTime(boolean limitTime) {
 		this.limitTime = limitTime;
 	}
 
-	public void setExHoliday(boolean exHoliday) {
-		this.exHoliday = exHoliday;
+	public void change() {
+		if (lengthDays >= 1) {
+			lengthHours = lengthHours + lengthDays * 24;
+		}
+		if (allDay) {
+			lengthHours = 24; 
+			lengthDays = 0;
+		}
+		if (repeat == false) {
+			repeatTimes = 0;
+		}
 	}
-
-	public void setDateRange(LocalDate startDate, LocalDate endDate) {
-		this.startDate = startDate;
-		this.endDate = endDate;
-	}
-
-	public void setTimeRange(LocalTime startTime, LocalTime endTime) {
-		this.startTime = startTime;
-		this.endTime = endTime;
-	}
-
+	
 	private void preprocessInput() {
 		DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyyMMdd");
 		DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HHmmss");
@@ -93,7 +126,7 @@ public class Scheduler {
 		File[] files = new File("data").listFiles();
 		for (File file : files) {
 			if (file.isFile() && file.getName().endsWith(".ics")) {
-				runCalendarFile(file.getPath());
+				CalendarFile(file.getPath());
 			}
 		}
 	}
@@ -105,7 +138,7 @@ public class Scheduler {
 		if (param != null && param.getValue().equals("DATE"))
 			dt = new DateTime(value + "T000000");
 		else
-			dt = new DateTime(value);
+			dt = new DateTime(value.toString().substring(0,15));
 		return dt;
 	}
 	
@@ -118,7 +151,16 @@ public class Scheduler {
 		return newDt;
 	}
 	
-	public void runCalendarFile(String filePath) {
+	public static Date addDays(Date dt, int days) {
+		java.util.Calendar cal = java.util.Calendar.getInstance(); 	// creates a calendar utility
+		cal.setTime(dt);												// sets calendar time/date
+		cal.add(java.util.Calendar.DAY_OF_MONTH, days); 				// adds days
+		Date newDt = new DateTime();
+		newDt.setTime(cal.getTime().getTime());
+		return newDt;
+	}
+	
+	public void CalendarFile(String filePath) {
 		try {
 			FileInputStream fin = new FileInputStream(filePath);
 			System.out.println("\nProcessing " + filePath + " ... ");
@@ -135,9 +177,11 @@ public class Scheduler {
 			}
 
 			// The current time slot to check against the event
-			Date slotStart = periodStart;
-			Date slotEnd = addHours(periodStart, 1);
-			System.out.println("Current time slot: " + slotStart + " to " + slotEnd);
+			Date slotStartTime;
+			Date slotEndTime;
+			Date slotStartDate;
+			Date slotEndDate;
+			
 
 			for (Iterator<CalendarComponent> i = calendar.getComponents().iterator(); i.hasNext();) {
 				Component component = (Component) i.next();
@@ -173,12 +217,88 @@ public class Scheduler {
 					for (int n = 0; n < list.size(); n++) {
 						DateTime rDateStart = (DateTime) list.get(n);
 						DateTime rDateEnd = new DateTime(rDateStart.toString().substring(0, 8) + "T" + evtEnd.toString().substring(9,15));
-						System.out.print("\t" + rDateStart + " compares with " + slotStart + ": " + rDateStart.compareTo(slotStart));
-						System.out.println(", " + rDateEnd   + " compares with " + slotEnd   + ": " + rDateEnd.compareTo(slotEnd));
+						slotStartDate = periodStart;
+						slotEndTime = addHours(periodStart, 1);
+						slotStartTime = periodStart;
+						slotEndDate = addHours(periodStart, 1);
+						for(int daterange=(int) DAYS.between(startDate, endDate);daterange>-1;daterange--)
+						{
+							System.out.println(slotStartDate.toString().substring(0, 8));
+							for(int timerange= (int) HOURS.between(startTime, endTime);timerange>0;timerange--)
+							{
+								boolean freeornot=true;
+								int studentstartVSeventstart = rDateStart.compareTo(slotStartTime);
+								int studentendVSeventstart = rDateEnd.compareTo(slotStartTime);
+								System.out.println("Current time slot: " + slotStartTime + " to " + slotEndTime);
+								System.out.print("\t" + rDateStart + " compares with " + slotStartTime + ": " + studentstartVSeventstart );
+								System.out.println(", " + rDateEnd   + " compares with " + slotStartTime   + ": " + studentendVSeventstart );
+								switch (studentstartVSeventstart) {
+									case (-1):
+										if(studentendVSeventstart==1)
+											freeornot=false;
+											break;
+									case (0):
+										freeornot=false;
+										break;
+									case (1):
+										break;
+									default:
+										System.out.println("Something is wrong!");
+								}
+								if(freeornot)
+									System.out.println("In Current time slot:" + slotStartTime + " to " + slotEndTime + " is FREE!!!!!");
+								else
+									System.out.println("In Current time slot:" + slotStartTime + " to " + slotEndTime + " is NOT FREE T^T");
+								slotStartTime = addHours(slotStartTime, 1);
+								slotEndTime = addHours(slotEndTime, 1);
+							}
+							slotStartDate = addDays(slotStartDate, 1);
+							slotEndDate = addDays(slotEndDate, 1);
+							slotStartTime = slotStartDate;
+							slotEndTime = slotEndDate;
+						}
 					}
 				} else {
-					System.out.println("\t" + evtStart + " compares with " + slotStart + ": " + evtStart.compareTo(slotStart));
-					System.out.println("\t" + evtEnd   + " compares with " + slotEnd   + ": " + evtEnd.compareTo(slotEnd));
+					slotStartDate = periodStart;
+					slotEndDate = addHours(periodStart, 1);
+					slotStartTime = periodStart;
+					slotEndTime = addHours(periodStart, 1);
+					
+					for(int daterange=(int) DAYS.between(startDate, endDate);daterange>-1;daterange--)
+					{
+						for(int timerange= (int) HOURS.between(startTime, endTime);timerange>0;timerange--)
+						{
+							boolean freeornot=true;
+							int studentstartVSeventstart = evtStart.compareTo(slotStartTime);
+							int studentendVSeventstart = evtEnd.compareTo(slotStartTime);
+							System.out.println("Current time slot: " + slotStartTime + " to " + slotEndTime);
+							System.out.println("\t" + evtStart + " compares with " + slotStartTime + ": " + studentstartVSeventstart);
+							System.out.println("\t" + evtEnd   + " compares with " + slotStartTime   + ": " + studentendVSeventstart);
+							switch (studentstartVSeventstart) {
+							case (-1):
+								if(studentendVSeventstart==1)
+									freeornot=false;
+									break;
+							case (0):
+								freeornot=false;
+								break;
+							case (1):
+								break;
+							default:
+								System.out.println("Something is wrong!");
+						}
+							if(freeornot)
+								System.out.println("In Current time slot:" + slotStartTime + " to " + slotEndTime + " is FREE!!!!!");
+							else
+								System.out.println("In Current time slot:" + slotStartTime + " to " + slotEndTime + " is NOT FREE T^T");
+							slotStartTime = addHours(slotStartTime, 1);
+							slotEndTime = addHours(slotEndTime, 1);
+						}
+						slotStartDate = addDays(slotStartDate, 1);
+						slotEndDate = addDays(slotEndDate, 1);
+						slotStartTime = slotStartDate;
+						slotEndTime = slotEndDate;
+					}	
 				}
 			}
 		} catch (IOException | ParseException | ParserException ex) {
@@ -186,4 +306,3 @@ public class Scheduler {
 		}
 	}
 }
-	

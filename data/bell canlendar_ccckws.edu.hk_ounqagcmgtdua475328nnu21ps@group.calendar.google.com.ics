@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:bell canlendar
+X-WR-TIMEZONE:Asia/Hong_Kong
+X-WR-CALDESC:2
+BEGIN:VEVENT
+DTSTART:20171120T040000Z
+DTEND:20171120T090000Z
+DTSTAMP:20171125T084149Z
+UID:14hr8vraotppv4i9l6rpbav36g@google.com
+CREATED:20171125T082801Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/to-teach-the?hceid=Y2Nja3dzLmVkdS5oa19vdW5x
+ YWdjbWd0ZHVhNDc1MzI4bm51MjFwc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.14hr8vraot
+ ppv4i9l6rpbav36g&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T082804Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:to teach the students 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171122T080000Z
+DTEND:20171122T090000Z
+DTSTAMP:20171125T084149Z
+UID:7ujih7qaldjh6l2mt5uhebl0jh@google.com
+CREATED:20171125T082832Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/working-for-my?hceid=Y2Nja3dzLmVkdS5oa19vdW
+ 5xYWdjbWd0ZHVhNDc1MzI4bm51MjFwc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.7ujih7qa
+ ldjh6l2mt5uhebl0jh&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T082832Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:working for my academic report
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171124T040000Z
+DTEND:20171124T050000Z
+DTSTAMP:20171125T084149Z
+UID:4alacc8ir981rmak09qji7qlj7@google.com
+CREATED:20171125T082849Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/my-reporting?hceid=Y2Nja3dzLmVkdS5oa19vdW5x
+ YWdjbWd0ZHVhNDc1MzI4bm51MjFwc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.4alacc8ir9
+ 81rmak09qji7qlj7&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T082849Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:my reporting time
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

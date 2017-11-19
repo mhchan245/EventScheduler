@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:neco canlendar
+X-WR-TIMEZONE:Asia/Hong_Kong
+X-WR-CALDESC:3
+BEGIN:VEVENT
+DTSTART:20171123T050000Z
+DTEND:20171123T103000Z
+DTSTAMP:20171125T084149Z
+UID:60vivtk3vk9qf9puq4tulfebhj@google.com
+CREATED:20171125T082948Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/join-the-nico?hceid=Y2Nja3dzLmVkdS5oa180bGU
+ ycjVja2dncXZvdWpzNnRtdWtlMWJxc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.60vivtk3v
+ k9qf9puq4tulfebhj&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T082952Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:join the nico nico show 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171120T073000Z
+DTEND:20171120T083000Z
+DTSTAMP:20171125T084149Z
+UID:33ji5q2pdl4qcta7ia0c931m1b@google.com
+CREATED:20171125T083028Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/the-book-party?hceid=Y2Nja3dzLmVkdS5oa180bG
+ UycjVja2dncXZvdWpzNnRtdWtlMWJxc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.33ji5q2p
+ dl4qcta7ia0c931m1b&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083028Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:the book party 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171122T100000Z
+DTEND:20171122T123000Z
+DTSTAMP:20171125T084149Z
+UID:0imjv26v7e1goj5qladuusbtjb@google.com
+CREATED:20171125T083039Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/teacher?hceid=Y2Nja3dzLmVkdS5oa180bGUycjVja
+ 2dncXZvdWpzNnRtdWtlMWJxc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.0imjv26v7e1goj5
+ qladuusbtjb&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083043Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:teacher gathering 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

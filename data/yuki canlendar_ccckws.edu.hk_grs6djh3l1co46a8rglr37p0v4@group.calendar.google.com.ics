@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:yuki canlendar
+X-WR-TIMEZONE:Asia/Hong_Kong
+X-WR-CALDESC:4
+BEGIN:VEVENT
+DTSTART:20171125T073000Z
+DTEND:20171125T093000Z
+DTSTAMP:20171125T084148Z
+UID:2jku2rd7lj3tme8eni6gnq23vp@google.com
+CREATED:20171125T083140Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/go-to-the?hceid=Y2Nja3dzLmVkdS5oa19ncnM2ZGp
+ oM2wxY280NmE4cmdscjM3cDB2NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t.2jku2rd7lj3tm
+ e8eni6gnq23vp&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083143Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:go to the chourch 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171122T083000Z
+DTEND:20171122T093000Z
+DTSTAMP:20171125T084148Z
+UID:4ju1v3dqn4a6e1it0gbv3qjl3f@google.com
+CREATED:20171125T083153Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/my-part-time?hceid=Y2Nja3dzLmVkdS5oa19ncnM2
+ ZGpoM2wxY280NmE4cmdscjM3cDB2NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t.4ju1v3dqn4
+ a6e1it0gbv3qjl3f&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083153Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:my part time working 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171120T053000Z
+DTEND:20171120T080000Z
+DTSTAMP:20171125T084148Z
+UID:1vromit1kreeki6abhv8dnbc05@google.com
+CREATED:20171125T083228Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/my-revision?hceid=Y2Nja3dzLmVkdS5oa19ncnM2Z
+ GpoM2wxY280NmE4cmdscjM3cDB2NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t.1vromit1kre
+ eki6abhv8dnbc05&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083230Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:my revision time 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

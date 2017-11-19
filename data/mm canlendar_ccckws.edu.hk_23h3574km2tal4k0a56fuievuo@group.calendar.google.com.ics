@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:mm canlendar
+X-WR-TIMEZONE:Asia/Hong_Kong
+X-WR-CALDESC:7
+BEGIN:VEVENT
+DTSTART:20171120T080000Z
+DTEND:20171120T090000Z
+DTSTAMP:20171125T084149Z
+UID:0hekbec2901vhj4cc5f0rm4ln5@google.com
+CREATED:20171125T083711Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/buy-a-new?hceid=Y2Nja3dzLmVkdS5oa18yM2gzNTc
+ 0a20ydGFsNGswYTU2ZnVpZXZ1b0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.0hekbec2901vh
+ j4cc5f0rm4ln5&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083711Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:buy a new pocket 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171123T083000Z
+DTEND:20171123T113000Z
+DTSTAMP:20171125T084149Z
+UID:50bu2svahbdgqgsnor3apcso05@google.com
+CREATED:20171125T083728Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/join-the-water?hceid=Y2Nja3dzLmVkdS5oa18yM2
+ gzNTc0a20ydGFsNGswYTU2ZnVpZXZ1b0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.50bu2sva
+ hbdgqgsnor3apcso05&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083731Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:join the water game 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20171122T050000Z
+DTEND:20171122T080000Z
+DTSTAMP:20171125T084149Z
+UID:4kq4qss329umqlbsavo19q06nj@google.com
+CREATED:20171125T083742Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nThis event has a Google Hangouts video call.\nJoin: https://plus.goog
+ le.com/hangouts/_/ccckws.edu.hk/friend-party?hceid=Y2Nja3dzLmVkdS5oa18yM2gz
+ NTc0a20ydGFsNGswYTU2ZnVpZXZ1b0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.4kq4qss329
+ umqlbsavo19q06nj&hs=121\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20171125T083744Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:friend party 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
